@@ -6,7 +6,7 @@
 def star(rows):
 
     r = 0
-    while r<= rows:
+    while r <= rows:
         print ("*"*r)
         r = r+1
 
