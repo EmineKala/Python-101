@@ -4,7 +4,7 @@ def first():
  print("Çizilebilecek Şekiller: \n1) Dik Üçgen \n2) Eşkenar Üçgen \n3) Kare \n4) Dikdörtgen \n5) Daire ")
 
  count = int(input ("Kaç Şekil Çizmek İstiyorsunuz?: "))
- 
+
  while count:
     number = input ("Çizmek istediğiniz şeklin kodunu giriniz: ")
     draw(number)

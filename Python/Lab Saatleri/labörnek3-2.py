@@ -54,11 +54,6 @@ def draw(number):
 
               print(" " * (i-rows//2-rows%2) + "*" * (2*(rows-i) +1) )
 
-
-
-
-
-
     else:
         print("Geçerli bir değer girmediniz!..")
 
