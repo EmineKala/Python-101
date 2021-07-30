@@ -47,11 +47,7 @@ def draw(number):
           if i <= rows/2:
              print (" " * (rows//2 - i+1) + "*" * (2*i - 1))
 
-          elif i-1 == rows/2:
-                print (" " * (rows//2 - (i-1)+1) + "*" * (2*(i-1) - 1))
-
           else:
-
               print(" " * (i-rows//2-rows%2) + "*" * (2*(rows-i) +1) )
 
     else:
