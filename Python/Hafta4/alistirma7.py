@@ -19,5 +19,5 @@ for k,v in counts.items():
     list.append((k,v))
 
 list.sort()
-for k,v in list:                                    
+for k,v in list:
     print(k,v)
